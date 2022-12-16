@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Mentoria</title>
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <section>
+        <h1>Mentoria</h1>
+        <p>Preencha o formulário abaixo para<br /> agendar a sua mentoria</p>
+      </section>
+    </header>
+
+    <main>
+      <form id="my-form">
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Informações pessoais</legend>
+            <div class="col-2">
+              <div class="input-wrapper">
+                <label for="name">Nome</label>
+                <input type="text" id="name">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" id="lastname">
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="email">Email</label>
+              <input type="email" id="email">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="password">Senha</label>
+              <input type="password" id="password">
+            </div>
+          </div>
+        </fieldset>
+
+
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Informação do mentor</legend>
+            <div class="input-wrapper">
+              <label for="name-mentor">Nome do mentor</label>
+              <input type="text" id="name-mentor">
+            </div>
+          </div>
+        </fieldset>
+
+
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Seus horários disponíveis</legend>
+            <div class="primeiro-segundo-horario">
+              <p>Primeiro horário</p>
+              <div class="col-3">
+                <div class="input-wrapper">
+                  <label for="date">Data</label>
+                  <input type="date" id="date">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="das">Das</label>
+                  <input type="time" id="das">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="ate">Até</label>
+                  <input type="time" id="ate">
+                </div>
+              </div>
+            </div>
+
+            <div class="primeiro-segundo-horario">
+              <p>Segundo horário</p>
+              <div class="col-3">
+                <div class="input-wrapper">
+                  <label for="date">Data</label>
+                  <input type="date" id="date">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="das">Das</label>
+                  <input type="time" id="das">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="ate">Até</label>
+                  <input type="time" id="ate">
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <footer>
+        <button>Salvar</button>
+      </footer>
+    </main>
+  </div>
+
+</body>
+
+</html>
